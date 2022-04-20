@@ -1,0 +1,128 @@
+ body {background-image: url(images/woaa.jpg); 
+		 	min-height: 657px;
+		 	display:  flex;
+		 	align-items: center;
+		 	justify-content: center;
+		 	background-repeat: no-repeat;
+		 	 background-size: 125%;
+		 	 background position: center;
+		 	}
+
+		 	.container{
+		 		width: 50%;
+		 		display: flex;
+		 		justify-content: center;
+		 		align-items: center;
+		 	}
+		 	.card
+		 	{  
+		 		min-height: 230px;
+		 		align-items: center; width: 400px;
+		 		border-radius:  30px;
+		 		padding: 0px 80px;
+		 		box-shadow:  0px 20px 50px rgba(0, 0, 0, 0.2)
+
+		 	
+		 	}
+
+
+		 	.img img{
+		 		width: 350px;
+		 		border-radius: 50%;
+		 		height: 240;
+		 	    min-height: 130px;
+		 		display: flex;
+		 		justify-content: center;
+		 		align-items: center;
+		 		z-index: 2;
+		 		margin-left: 2;
+		 	}
+		 	.circle{
+		 		width: 350px;
+		 	 height: 350px;
+		 		background: #2f3136;
+		 		border-radius: 50%;
+		 		z-index: 1;	
+
+		 		 }
+		 		 .name h1{
+		 		 	font-size: 40px;
+		 		 	margin: 10px 20px;
+		 		 	padding-left: 25px ;
+		 		 	color: #e2dcd4;
+		 		 }
+		 		 .name h3{
+		 		 	font-size: 33px;
+		 		 	padding-left: 30px;
+		 		 	color: #e6e6fa;
+		 		 	font-weight: lighter
+		 		 	;text-align: center;
+		 		 	margin-right: 30px
+		 		 }
+
+		 		 .getInfo{
+		 		 	display: flex;
+		 		 	justify-content: space-between;
+
+		 		 }
+		 		 .getInfo button{
+		 		 	margin-top: 20px;
+		 		 	padding:  20px 10px;
+		 		 	background: none;
+		 		 	border: none;
+		 		 	color: white;
+		 		 	box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+		 		 	border-radius: 30px ;
+		 		 	cursor: pointer;
+		 		 	font-weight: bold;
+		 		 	transition:  all 0.5s;
+
+
+		 		 }
+		 		 
+		 		 button.active {
+		 		 	background: #e6e6fa;
+		 		 	color: black 
+		 		 }
+		 		 .search{
+		 		 	margin:  20px 30px;
+
+
+		 		 }
+		 		 .search button{
+		 		 	width: 100%;
+		 		 	border: none;
+		 		 	padding: 20px 10px;
+		 		 	background: #6F9AC3;
+		 		 	border-radius: 30px;
+		 		 	cursor: pointer;
+		 		 	transition:  all 0.5s;
+
+		 		 }
+		 		  .button span { 
+		 		 	display: inline-block;
+		 		 	position: relative;
+		 		 	transition: 0.5s;
+
+		 		 }
+		 		  .button span:after {
+		 		 	content: '\00bb';
+		 		 	position: absolute;
+		 		 	opacity: 0;
+		 		 	top: 0;
+		 		 	right: -20px;
+		 		 	transform: 0.5s;
+		 		 }
+		 		  .button:hover span {
+		 		 	padding-right:  25px;
+		 		 }
+		 		  .button:hover span:after {
+		 		 	opacity: 1;
+		 		 	right: 0;
+		 		 	text-decoration-color: 
+
+		 		 }
+		 		.button:hover {
+		 			background: #A9A9A9;
+		 			}
+

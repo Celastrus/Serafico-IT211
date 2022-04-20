@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="StylePortfolio.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	</style>
+	<title>Portofilo</title>
+</head> 
+<body> <div class="container">
+	<div class="card">
+		<div class="img">
+			<div class="circle
+			">
+			<img src="images/catto.png">
+			
+		</div> 
+		<div class="name">
+			<h1 class="name">Francis Serafico</h1>
+			<h3>Hobbies and Facts about me</h3>
+		</div>
+		<div class="getInfo">
+			<button onclick="myFunction()" style="width: 35%;" class="button"> IT Info</button>
+			<button onclick="Coding()" style="width: 35%;" class="button">Code</button>
+			<button onclick="Read()" style="width: 35%;" class="button">HTML</button>
+		</div> 
+		<div class="search" align="">
+			<button class="button" onclick="Intro()"><span>Learn More</span> </button>
+			
+			</div>
+		</div>  <a href=""></a>
+	</div><link rel="stylesheet" type="text/css" href="">
+	
+</div>  
+<script type="text/javascript">
+
+
+	function myFunction(){
+		alert("Information technology is the use of computers to create, process, store, retrieve, and exchange all kinds of electronic data and information.");
+	}
+	function Coding(){
+		alert("I know programming languages such as HTML, Css, and Javascript.");
+	}
+	function Read(){
+		alert("The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. ")
+	}
+	
+	function Intro() {
+  let text;
+  let person = prompt("Please enter your name:", "");
+  if (person == null || person == "") {
+    alert  ("Sad you don't want to know more about me D:   ");
+  } else {
+    alert ("Hello " + person + "! Do you want to learn more about Francis?");
+    alert("Francis a very curious and free spirited person who likes to make friends online, he also likes to code in his spare time and plans to take BSIT in the future.")
+  }
+  document.getElementById("demo").innerHTML = text ;
+}
+</script>
+</body>
+</html>
